@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background"
+   >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" 
+        android:textSize="25dp"
+        android:textColor="#ab0a22"
+        />
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diagnose"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+     
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+        <Button
+            android:id="@+id/bt3"
+            android:text="cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+                        />
+	      <Button
+	        android:id="@+id/bt1"
+	        android:text="hello dog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="35dp"
+	        android:gravity="center_horizontal"
+	        
+	        />
+        
+    </LinearLayout>
+
+
+</LinearLayout>
